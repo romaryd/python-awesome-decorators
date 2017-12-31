@@ -32,7 +32,7 @@ version = re.search(
 
 NAME = 'python-awesome-decorators'
 VERSION = version
-DESCRIPTION = 'List of nice decorators in Python.'
+DESCRIPTION = 'List of useful decorators in Python.'
 KEYWORDS = 'decorators'
 AUTHOR = 'Romary Dupuis'
 AUTHOR_EMAIL = 'romary@me.com'
@@ -65,7 +65,6 @@ params = {
     'version':          VERSION,
     'description':      DESCRIPTION,
     'keywords':         KEYWORDS,
-    'long_description': LONG_DESCRIPTION,
     'author':           AUTHOR,
     'author_email':     AUTHOR_EMAIL,
     'url':              URL,
