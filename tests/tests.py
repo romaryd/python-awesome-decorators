@@ -71,4 +71,3 @@ class DecoratorsTests(unittest.TestCase):
         with Timer() as timer:
             myfunc()
         self.assertGreater(timer.elapsed, 1.0)
-        print(timer)
