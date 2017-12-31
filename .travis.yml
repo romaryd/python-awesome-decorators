@@ -3,6 +3,15 @@ language: python
 python:
   - "2.7"
   - "3.6"
-install: pip install tox-travis
+install:
+  - pip install tox-travis
+  - pip install coveralls
 script: tox
+after_script: coveralls
+notifications:
+  email:
+    recipients:
+      - romary@me.com
+    on_success: change
+    on_failure: always
 
